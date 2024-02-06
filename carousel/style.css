@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.carousel{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+.carousel-inner{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item{
+    min-width: 100%
+
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+}
+.prev , .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    cursor: pointer;
+   background-color: #0a0a0a85;
+   width: 30px;
+   text-align: center;
+   color: white;
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
